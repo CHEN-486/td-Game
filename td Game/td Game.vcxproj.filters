@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\Manager">
+      <UniqueIdentifier>{872804c5-e803-402b-91d9-914fd421ccc6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Enemy">
+      <UniqueIdentifier>{1af37f36-ca28-4e99-852c-a4b9150b179e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\cJSON">
+      <UniqueIdentifier>{f7bcefd6-b880-4bdd-bc16-41cfb346450d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Bullet">
+      <UniqueIdentifier>{3ce9b337-5497-4307-8877-6bbee9d795fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Tower">
+      <UniqueIdentifier>{3002e401-58a9-48ba-8d63-ba9d15cdee66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\UI">
+      <UniqueIdentifier>{420389dd-6c97-4a1c-9160-d0dd614b8525}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\UI\panel">
+      <UniqueIdentifier>{302d742b-3eac-4bdf-8a89-6b81af027915}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\CHEN\Desktop\project resource\C++双人塔防游戏开发Voidmatrix\程序库合集\cJSON\cJSON.c">
+      <Filter>源文件\cJSON</Filter>
+    </ClCompile>
+    <ClCompile Include="ArrowBullet.h">
+      <Filter>头文件\Bullet</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="game_manager.h">
+      <Filter>头文件\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="manager.h">
+      <Filter>头文件\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="tile.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Map.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Route.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ConfigManager.h">
+      <Filter>头文件\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Wave.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyType.h">
+      <Filter>头文件\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceManager.h">
+      <Filter>头文件\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="timer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="vector2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="enemy.h">
+      <Filter>头文件\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="SlimEnemy.h">
+      <Filter>头文件\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="goblin_enemy.h">
+      <Filter>头文件\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="goblin_priest_enemy.h">
+      <Filter>头文件\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="king_slim_enemy.h">
+      <Filter>头文件\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="skeleton_enemy.h">
+      <Filter>头文件\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyMannager.h">
+      <Filter>头文件\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="HomeManager.h">
+      <Filter>头文件\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="CoinManager.h">
+      <Filter>头文件\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="WaveManager.h">
+      <Filter>头文件\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="animation.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="bullet.h">
+      <Filter>头文件\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="BulletManager.h">
+      <Filter>头文件\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="BulletType.h">
+      <Filter>头文件\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="AexBullet.h">
+      <Filter>头文件\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="ShellBullet.h">
+      <Filter>头文件\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="TowerType.h">
+      <Filter>头文件\Tower</Filter>
+    </ClInclude>
+    <ClInclude Include="Tower.h">
+      <Filter>头文件\Tower</Filter>
+    </ClInclude>
+    <ClInclude Include="Facing.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ArcherTower.h">
+      <Filter>头文件\Tower</Filter>
+    </ClInclude>
+    <ClInclude Include="Axeman.h">
+      <Filter>头文件\Tower</Filter>
+    </ClInclude>
+    <ClInclude Include="Gunner.h">
+      <Filter>头文件\Tower</Filter>
+    </ClInclude>
+    <ClInclude Include="TowerMananger.h">
+      <Filter>头文件\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="CoinProp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="StateBar.h">
+      <Filter>头文件\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="panel.h">
+      <Filter>头文件\UI\panel</Filter>
+    </ClInclude>
+    <ClInclude Include="PlacePanel.h">
+      <Filter>头文件\UI\panel</Filter>
+    </ClInclude>
+    <ClInclude Include="UpgradePanel.h">
+      <Filter>头文件\UI\panel</Filter>
+    </ClInclude>
+    <ClInclude Include="play_manager.h">
+      <Filter>头文件\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="banner.h">
+      <Filter>头文件\UI</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
